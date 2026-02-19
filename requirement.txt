@@ -1,5 +1,5 @@
 pandas
-scitkit-learn
+scikit-learn
 kaggle
 streamlit
 seaborn
