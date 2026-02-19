@@ -50,7 +50,7 @@ python data_dl.py
 Télécharge les données depuis Kaggle.
 
 ```bash
-python data.py
+python data_processing.py
 ```
 
 Nettoie les données et les prépare pour l’entraînement.
