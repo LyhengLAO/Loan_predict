@@ -102,10 +102,9 @@ elif page == 'Prédiction':
         ]
 
     elif choice == "random from test set":
-    
         st.markdown("### Random test set")
 
-        if st.button("🎲 Randomize again"):
+        if st.button("Randomize again"):
             random_row = test_df.sample(n=1).iloc[0]
             st.session_state.random_data = random_row.values.tolist()
 
@@ -174,3 +173,4 @@ elif page == 'Résultat':
             st.session_state.selected_model = None
             st.session_state.last_data = None
             st.rerun()
+
